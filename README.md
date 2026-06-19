@@ -19,23 +19,6 @@ Generador de codigos QR del lado del cliente, construido con TypeScript y Vite. 
 | Motor QR    | qrcode ^1.5.3           |
 | Despliegue  | GitHub Pages (gh-pages) |
 
-## Estructura del Proyecto
-
-Ts_QrCode/ 
-├── src/ │ 
-    ├── modules/ │ │ 
-    ├── qr-generator.ts # Logica de generacion y descarga del QR 
-    │ │ 
-    └── theme.ts # Inicializacion y alternancia de tema │ 
-    ├── styles/ │ │ 
-    └── styles.css # Estilos globales y tokens de diseno │ 
-    └── main.ts # Punto de entrada y registro de eventos 
-    ├── index.html 
-    ├── vite.config.ts 
-    └── tsconfig.json
-
-## Inicio Rapido
-
 ### Requisitos Previos
 
 - Node.js >= 18
